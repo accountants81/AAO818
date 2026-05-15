@@ -84,28 +84,36 @@ export const WHATSAPP_LINKS: PortalLink[] = [
 
 export const TOOLS_LINKS: PortalLink[] = [
   {
-    id: 'tool-1',
-    title: { ar: 'موقع نجاتك بيدك', en: 'Najatoka Website' },
-    description: { ar: 'الرابط الرسمي للخدمات', en: 'Official services link' },
-    url: 'https://example.com',
-    type: 'tool',
-    color: 'border-l-blue-500'
+    id: 'tool-2',
+    title: { ar: 'ملف المخططات (Excel)', en: 'Charts File (Excel)' },
+    description: { ar: 'تحميل المخططات والميزانيات المركزية', en: 'Download central charts and budgets' },
+    url: 'https://docs.google.com/spreadsheets/d/11I7eD9ehCos2amQSHJbc_ZGXdNgEAo-8/edit?usp=drivesdk&ouid=117083237204084925727&rtpof=true&sd=true',
+    type: 'file',
+    color: 'bg-brand-emerald'
   },
   {
-    id: 'tool-2',
-    title: { ar: 'ملف المخططات', en: 'Charts File' },
-    description: { ar: 'تحميل المخططات والميزانيات', en: 'Download charts and budgets' },
-    url: 'https://example.com',
-    type: 'file',
-    color: 'border-l-purple-500'
+    id: 'tool-4',
+    title: { ar: 'جميع المخططات', en: 'All Charts' },
+    description: { ar: 'الرابط المباشر لكل ملفات MasAR', en: 'Direct link to all MasAR files' },
+    url: 'https://hjgh20667.vercel.app/',
+    type: 'tool',
+    color: 'bg-indigo-500'
+  },
+  {
+    id: 'tool-1',
+    title: { ar: 'موقع نجاتك بيدك', en: 'Najatoka Website' },
+    description: { ar: 'الرابط الرسمي للخدمات والدعم', en: 'Official services and support link' },
+    url: 'https://in-your-hands.vercel.app/',
+    type: 'tool',
+    color: 'bg-brand-accent'
   },
   {
     id: 'tool-3',
-    title: { ar: 'رفع الصور', en: 'Upload Images' },
-    description: { ar: 'مركز رفع المستندات', en: 'Document upload center' },
-    url: 'https://example.com',
+    title: { ar: 'رفع الصور المستندات', en: 'Upload Images & Docs' },
+    description: { ar: 'مركز الرفع السريع للمستندات', en: 'Quick document upload center' },
+    url: 'https://postimages.org/',
     type: 'tool',
-    color: 'border-l-amber-500'
+    color: 'bg-amber-500'
   }
 ];
 
@@ -124,9 +132,9 @@ export const TRANSLATIONS = {
     waMainBtn: 'عرض جميع المجموعات (11 مجموعة)',
     waMainBtnOpen: 'إخفاء المجموعات',
     greetings: {
-      morning: 'AAAMO',
-      afternoon: 'AAAMO',
-      evening: 'AAAMO'
+      morning: 'AAAMO عالم',
+      afternoon: 'AAAMO عالم',
+      evening: 'AAAMO عالم'
     },
     days: ['الأحد', 'الاثنين', 'الثلاثاء', 'الأربعاء', 'الخميس', 'الجمعة', 'السبت'],
     months: ['يناير', 'فبراير', 'مارس', 'أبريل', 'مايو', 'يونيو', 'يوليو', 'أغسطس', 'سبتمبر', 'أكتوبر', 'نوفمبر', 'ديسمبر']
@@ -145,9 +153,9 @@ export const TRANSLATIONS = {
     waMainBtn: 'View All Groups (11 Groups)',
     waMainBtnOpen: 'Hide Groups',
     greetings: {
-      morning: 'AAAMO',
-      afternoon: 'AAAMO',
-      evening: 'AAAMO'
+      morning: 'AAAMO WORLD',
+      afternoon: 'AAAMO WORLD',
+      evening: 'AAAMO WORLD'
     },
     days: ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'],
     months: ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December']
